@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengumuman Kelulusan SMP Negeri 2 Sungai Pandan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      margin: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 600;
+      margin-bottom: 20px;
+      font-size: 26px;
+      text-align: center;
+    }
+
+    p {
+      font-weight: 300;
+      line-height: 1.6;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 14px;
+      color: #e0e7ff;
+      text-align: center;
+      border-top: 1px solid #fff;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: white;
+      color: #1e3a8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #dbeafe;
+    }
+
+    .countdown {
+      background: #fff;
+      color: #1e40af;
+      font-weight: bold;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    input {
+      padding: 12px;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .result {
+      margin-top: 20px;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .result ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .result li {
+      margin: 8px 0;
+    }
+
+    #check-page {
+      display: none;
+    }
+
+    .border-box {
+      border: 2px solid #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Halaman Sambutan -->
+  <div class="container" id="welcome-page">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOLtICyTnb5u__sj_YXnlYnED7MkNuPcDvht9QAu0sqsNmuLOL6z-y4zZHvOOhC38k1yf6bdrF3P_25V_P1IEIdjXxuXOQ68sqT3034XV5D-RmYq3137l0htMb1aXM_xAVrxMVtdUHb9GiSSs6kA7lxIs6lcIqgSTrOxsyNxsytl_ttg6JQXOqR7mp4pcY/s600/logo%20SMPN%202%20SUPAN%20Kotak%20copy.png" alt="Logo SMP Negeri 2 Sungai Pandan" class="logo">
+    <h1>PENGUMUMAN KELULUSAN SISWA<br>SMP NEGERI 2 SUNGAI PANDAN<br>TAHUN AJARAN 2024/2025</h1>
+    <p>Alamat: Jl. Pendidikan No. 53 RT. 5, Sungai Sandung,<br>Kec. Sungai Pandan, Kab. Hulu Sungai Utara, Prov. Kalimantan Selatan</p>
+
+    <div class="border-box">
+      <h2>SAMBUTAN KEPALA SEKOLAH</h2>
+      <p>Assalamu’alaikum Warahmatullahi Wabarakatuh,
+<br><br>
+Selamat kepada seluruh siswa-siswi SMP Negeri 2 Sungai Pandan yang telah berhasil lulus pada tahun ajaran 2024/2025. Hari ini adalah puncak dari perjuangan kalian, dan saya sangat bangga atas kerja keras dan dedikasi yang telah kalian tunjukkan.
+<br><br>
+Bagi yang belum berhasil, ingatlah bahwa ini bukan akhir dari segalanya. Teruslah berusaha dan belajar untuk meraih kesuksesan di masa depan.
+<br><br>
+Terima kasih kepada seluruh guru, staf, dan orang tua yang telah mendukung proses belajar selama ini. Semoga kita semua selalu diberi kekuatan untuk terus maju.
+<br><br>
+Selamat sekali lagi dan semoga sukses selalu menyertai langkah kalian. Serta semoga kalian sukses di jenjang pendidikan berikutnya.
+<br><br>
+Wassalamu’alaikum Warahmatullahi Wabarakatuh.
+<br><br>
+Kepala Sekolah
+<br>
+Hj. Dewi Indah Fitriani, S. Pd.</p>
+    </div>
+
+    <div class="countdown" id="countdown"></div>
+
+    <button onclick="goToCheckPage()">CEK KELULUSAN</button>
+  </div>
+
+  <!-- Halaman Cek Kelulusan -->
+  <div class="container" id="check-page">
+    <h2>CEK KELULUSAN</h2>
+    <input type="text" id="nisnInput" placeholder="Masukkan NISN Anda" />
+    <button onclick="cekKelulusan()">CEK</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 RiezT T.S.R. & SMP Negeri 2 Sungai Pandan | All rights reserved.
+  </footer>
+
+  <script>
+    // Data siswa kelulusan
+    const dataKelulusan = {
+      "00802800": { nama: "ADIT RAHMAN", status: "LULUS" },
+      "00802820": { nama: "UTUH", status: "LULUS" }
+    };
+
+    // Waktu pengumuman
+    const waktuPengumuman = new Date("2025-06-02T10:00:00+08:00");
+
+    // Berpindah ke halaman cek kelulusan
+    function goToCheckPage() {
+      document.getElementById("welcome-page").style.display = "none";
+      document.getElementById("check-page").style.display = "block";
+    }
+
+    // Fungsi untuk mengecek kelulusan
+    function cekKelulusan() {
+      const now = new Date();
+      const input = document.getElementById("nisnInput").value.trim();
+      const resultDiv = document.getElementById("result");
+      resultDiv.innerHTML = "";
+
+      // Pengecekan waktu pengumuman
+      if (now < waktuPengumuman) {
+        resultDiv.innerHTML = "<strong>Pengumuman kelulusan belum dimulai.<br>Harap cek sesuai waktu yang telah ditentukan.</strong>";
+        return;
+      }
+
+      // Cek jika input adalah "AYIES"
+      if (input.toLowerCase() === "ayies") {
+        let output = "<strong>Data Kelulusan Siswa:</strong><ul>";
+        for (let nisn in dataKelulusan) {
+          output += `<li><strong>${dataKelulusan[nisn].nama}</strong> - ${dataKelulusan[nisn].status}</li>`;
+        }
+        output += "</ul>";
+        resultDiv.innerHTML = output;
+        return;
+      }
+
+      // Cek jika NISN ditemukan
+      if (dataKelulusan[input]) {
+        const siswa = dataKelulusan[input];
+        resultDiv.innerHTML = `
+          <p><strong>Nama:</strong> ${siswa.nama}</p>
+          <p><strong>NISN:</strong> ${input}</p>
+          <p><strong>Status:</strong> ${siswa.status}</p>
+        `;
+      } else {
+        resultDiv.innerHTML = "<strong>Data tidak ditemukan. Pastikan NISN benar.</strong>";
+      }
+    }
+
+    // Hitung mundur pengumuman
+    function startCountdown() {
+      const countdownElement = document.getElementById("countdown");
+      const interval = setInterval(() => {
+        const now = new Date();
+        const remainingTime = waktuPengumuman - now;
+
+        if (remainingTime <= 0) {
+          countdownElement.innerHTML = "Pengumuman sudah dapat diakses!";
+          clearInterval(interval);
+        } else {
+          const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+          countdownElement.innerHTML = `Pengumuman akan dibuka dalam: ${days} hari ${hours} jam ${minutes} menit ${seconds} detik`;
+        }
+      }, 1000);
+    }
+
+    startCountdown();
+  </script>
+</body>
+</html>
